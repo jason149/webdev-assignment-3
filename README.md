@@ -9,6 +9,7 @@ db.movies.find(
 {"_id": 0, "runtime": 1, "title": 1, year: 1}).sort({"runtime": 1}
 
 )
+
 ![image](https://github.com/user-attachments/assets/4ee7ecba-e3f4-41ea-b29c-9064fab38a77)
 
 
@@ -21,5 +22,6 @@ db.movies.find(
 {"_id": 0, "title": 1, "year": 1, "imdb.rating": 1}
 
 )
+
 ![image](https://github.com/user-attachments/assets/cbaf183d-7cef-46e4-b138-5ff54b5f8917)
 
